@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+html {
+	background-color: rgb(190, 219, 195);
+}
+
+/* the styles for the elements */
+body {
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100%;
+	max-width: 950px;
+	width: 98%;
+	margin-left: 10px;
+	background-color: #5f7565;
+	border: 3px solid #f8f8f8	
+}
+a:focus, a:hover {
+	font-style: italic;
+}	
+header{
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	border-bottom: 3px solid #f8f8f8;
+	background-image: linear-gradient(45deg, #92cab8 0%,#318b69 30%, white 50%, #92cab8 80% );
+    text-align: center;
+	}
+
+main {
+	
+	
+	padding-left: 30px;
+	padding-right: 30px;
+	clear: left;
+}
+
+main h1 {
+	
+	border: 3px solid #f8f8f8;
+	font-size: 150%;
+    padding-top: .5em ;
+	padding-bottom: .5em ;
+	border-radius: 10px 10px 10px 10px;
+	text-align: center;
+	box-shadow: 0 2px 0 0;
+}
+#nav_menu ul{	
+	display: flex;
+	flex-basis: 100%;
+	justify-content: space-evenly;
+	list-style-type:none;
+	position: relative; 
+}
+
+#nav_menu ul li { float: none; 
+flex-basis: 20%;
+width: 20%;
+justify-content: space-evenly;
+			}
+
+#nav_menu ul li a {
+display: block;
+text-align: center;
+padding: 1em 0;
+text-decoration: none;
+background-color: #92cab8;
+color: #f8f8f8;
+font-weight: bold;
+}
+#nav_menu ul li ul {
+	width: 100%;
+	display:none;
+	position: absolute;
+	top:100%;
+}
+
+#nav_menu ul ul li{float:none}
+
+#nav_menu ul li:hover > ul {
+	display:block;
+	position: absolute;
+	top: 100%;
+	}
+
+#nav_menu > ul::after {
+	content:"";
+	display: block;
+	clear:both;
+}
+
+#nav_menu :current{color:#318b69 ;
+width: 150px;
+}
+main img {
+	max-width: 60%;
+	min-width: 150px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+main h2 {
+	color: var(--global-color-1);
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
+}
+main p {
+	padding-bottom: .5em;
+}
+
+
+main li {
+	padding-bottom: 0;
+}
+footer {
+	position: absolute;
+	bottom: 0;
+    text-align: center;
+	background-color:#5f7565;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f8f8f8;
+	padding-bottom: 1em 0;
+}
+
+#mobile_menu {
+	display: none;
+}
+@media only screen and (max-width: 480px) {
+	main img { float: none; }
+	header { text-align: center; }
+	#nav_menu {
+		font-size: 75%;
+	}
+}
+@media only screen and (max-width: 280px) {
+	main h3{
+		font-size: 75%;
+	}
+}
+
+    

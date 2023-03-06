@@ -9,14 +9,13 @@ html {
 
 /* the styles for the elements */
 body {
-	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-family: 'Golos Text', sans-serif;
     font-size: 100%;
-	max-width: 950px;
-	width: 98%;
-	margin-left: 10px;
+	width: 100%;
 	background-color: #5f7565;
 	border: 3px solid #f8f8f8	
 }
+
 a:focus, a:hover {
 	font-style: italic;
 }	
@@ -29,23 +28,16 @@ header{
 	}
 
 main {
-	
-	
 	padding-left: 30px;
 	padding-right: 30px;
 	clear: left;
 }
+main h3{
+text-align: center;
 
-main h1 {
-	
-	border: 3px solid #f8f8f8;
-	font-size: 150%;
-    padding-top: .5em ;
-	padding-bottom: .5em ;
-	border-radius: 10px 10px 10px 10px;
-	text-align: center;
-	box-shadow: 0 2px 0 0;
 }
+
+
 #nav_menu ul{	
 	display: flex;
 	flex-basis: 100%;
@@ -98,14 +90,9 @@ main img {
 	min-width: 150px;
 	padding-bottom: 30px;
 	padding-top: 30px;
-}
-main h2 {
-	color: var(--global-color-1);
-	font-size: 130%;
-	padding: .5em 0 .25em 0;
-}
-main p {
-	padding-bottom: .5em;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 

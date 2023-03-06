@@ -1,0 +1,8 @@
+ appreciate the color scheme of the web pages and the uniformity throughout. The information is concise and organized in a clear way. I'd like to see the content of the website centered on the webpage. Also the padding/margin between the navs and the sentence above could be different. Obviously there could be more content on each webpage. The website is pretty responsive so I have no problems with how it scales based on screen size. You might reconsider the location of the nav bar. Overall I'm happy with the design for the most part. The information is structured well and there is no fluff.
+
+
+
+
+
+
+Some things I think could make it better are adding some margins or padding between your elements like the nav bar and the "What to do:". I would also make the "What to do:" element bigger as for me it was a bit small to see. Also, personally, I would think about moving the nav bar. I think it would look better maybe at the top of the page. 

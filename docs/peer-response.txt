@@ -6,3 +6,9 @@
 
 
 Some things I think could make it better are adding some margins or padding between your elements like the nav bar and the "What to do:". I would also make the "What to do:" element bigger as for me it was a bit small to see. Also, personally, I would think about moving the nav bar. I think it would look better maybe at the top of the page. 
+
+
+I really enjoy how the colors and images go together so well on this website as well as the appreciation for the beautiful weather and areas around the Pacific Northwest. The first recommendation I would make would be to remove or add a page to some of the links that are empty in the nav menu(Such as on the home page if you click the home link there is no file reference there), I would also try to keep the nav menu in a similar area on all pages to help with user accessibility such as when you click on the Poulsbo link, the menu moves to the bottom of the screen.  Lastly maybe adjusting some of the text color on the navmenu to something darker could help people that have issues with vision to clearly see what they say. Overall it is a great looking website that shows some of the best pieces of our area.
+
+
+I like the color scheme and pictures you have for your webpage. I would recommend you keep the nav bar in the same spot on all pages. I like it at the top like the home page but some of the other pages have it on the bottom. I would also make sure all your links work. There were a couple most the top 5 things to do pages that went nowhere. Lastly, I would work on maybe adding some more content to your pages. Most of the pages have one line of content to read. Other than that it looks pretty good.

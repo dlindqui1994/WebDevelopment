@@ -31,13 +31,15 @@ main {
 	padding-left: 30px;
 	padding-right: 30px;
 	clear: left;
+	font-weight: bold;
 }
+
 main h3{
 text-align: center;
 
 }
 
-
+/* Nav menu CSS */
 #nav_menu ul{	
 	display: flex;
 	flex-basis: 100%;
@@ -58,7 +60,7 @@ text-align: center;
 padding: 1em 0;
 text-decoration: none;
 background-color: #92cab8;
-color: #f8f8f8;
+color: black;
 font-weight: bold;
 }
 #nav_menu ul li ul {
@@ -85,6 +87,7 @@ font-weight: bold;
 #nav_menu :current{color:#318b69 ;
 width: 150px;
 }
+/*IMG CSS for all pages*/
 main img {
 	max-width: 60%;
 	min-width: 150px;
@@ -94,11 +97,7 @@ main img {
 	margin-right: auto;
 	display: block;
 }
-
-
-main li {
-	padding-bottom: 0;
-}
+/*foot*/
 footer {
 	position: absolute;
 	bottom: 0;
@@ -109,6 +108,7 @@ footer {
 	padding-bottom: 1em 0;
 }
 
+/* Media query */
 #mobile_menu {
 	display: none;
 }
